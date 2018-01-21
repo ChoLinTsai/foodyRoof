@@ -1,0 +1,15 @@
+main#main-home {
+	@include wh(normal, 100%, 500px);
+	margin-top: 2rem;
+	background: #D9FAFF;
+	div.row {
+		@include wh(normal, 100%, 500px);
+		padding: 1.5rem;
+		figure#main-fig-1 {
+			margin: 0;
+			padding: 0;
+			@include bgimg('../img/main-bg.jpg',
+			no-repeat, center, center, cover);
+		}
+	}
+}

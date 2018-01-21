@@ -1,6 +1,15 @@
+/* Global */
 @import '../bootstrap/customizations.scss';
-<<<<<<< HEAD
-=======
-@import "./partials/master.scss";
 @import "./partials/resources/fonts.scss";
->>>>>>> master
+
+/* Root */
+@import "./partials/root.scss";
+
+/* Header section */
+@import "./partials/header.scss";
+
+/* Nav section */
+@import "./partials/nav.scss";
+
+/* Main section */
+@import "./partials/main.scss";

@@ -1,0 +1,19 @@
+nav#section-nav {
+	background: #404969;
+	div.container {
+		ul.nav {
+			li.nav-item {
+				a.nav-link {
+					color: #BDE4F4;
+					text-transform: uppercase;
+					font-family: 'roboto-medium';
+					font-size: 1rem;
+					letter-spacing: 5px;
+					&:hover {
+						color: #FF895D;
+					}
+				}
+			}
+		}
+	}
+}
