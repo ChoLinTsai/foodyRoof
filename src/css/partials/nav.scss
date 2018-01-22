@@ -1,14 +1,27 @@
 nav#section-nav {
 	background: #404969;
-	div.container {
-		ul.nav {
+	button.navbar-toggler {
+		padding: 0;
+		@include wh(normal, 50px, 50px);
+		font-size: 2rem;
+		outline-style: none;
+		i.fa {
+			@include flex;
+			font-size: 2rem;
+			color: #fff;
+		}
+	}
+	div#navbarNav {
+		ul.navbar-nav {
 			li.nav-item {
 				a.nav-link {
+					@include flex;
+					height: 4rem;
 					color: #BDE4F4;
 					text-transform: uppercase;
-					font-family: 'roboto-medium';
-					font-size: 1rem;
-					letter-spacing: 5px;
+					font-family: 'roboto-black';
+					font-size: 1.5rem;
+					letter-spacing: 10px;
 					&:hover {
 						color: #FF895D;
 					}

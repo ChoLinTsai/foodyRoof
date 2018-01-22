@@ -7,9 +7,42 @@
 
 /* Header section */
 @import "./partials/header.scss";
+@import "./partials/mediaquery/mq_header.scss";
+
+/* Shoecase section */
+@import "./partials/Showcase.scss";
+@import "./partials/mediaquery/mq_showcase.scss";
 
 /* Nav section */
 @import "./partials/nav.scss";
+@import "./partials/mediaquery/mq_nav.scss";
 
 /* Main section */
 @import "./partials/main.scss";
+
+
+
+/* laptop xl or desktop */
+@media screen and (max-width: 1440px) {
+
+}
+
+/* laptop lg */
+@media screen and (max-width: 1200px) {
+
+}
+
+/* laptop lg */
+@media screen and (max-width: 992px) {
+
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+
+}
+
+/* mobile */
+@media screen and (max-width: 576px) {
+
+}
