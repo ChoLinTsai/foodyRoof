@@ -1,0 +1,55 @@
+/* laptop xl or desktop */
+@media screen and (max-width: 1200px) {
+	nav#section-nav {
+		div#navbarNav {
+			ul.navbar-nav {
+				li.nav-item {
+					a.nav-link {
+						height: 3rem;
+						font-size: 1.25rem;
+						letter-spacing: 5px;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* laptop lg */
+@media screen and (max-width: 992px) {
+	nav#section-nav {
+		div#navbarNav {
+			ul.navbar-nav {
+				li.nav-item {
+					a.nav-link {
+						height: 3rem;
+						font-size: 1rem;
+						letter-spacing: 5px;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+	nav#section-nav {
+		div#navbarNav {
+			ul.navbar-nav {
+				li.nav-item {
+					a.nav-link {
+						height: 3rem;
+						font-size: 1rem;
+						letter-spacing: 2.5px;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* mobile */
+@media screen and (max-width: 576px) {
+
+}

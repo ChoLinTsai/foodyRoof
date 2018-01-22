@@ -1,0 +1,25 @@
+section#showcase {
+	@include wh(normal, 100%, 800px);
+	padding: 0;
+	margin-top: 5rem;
+	position: relative;
+	div#color-box {
+		@include wh(normal, 45%, 100%);
+		position: absolute;
+		margin: 0;
+		padding: 0;
+		background: rgba(#fff1c6, 0.47);
+		border-radius: $bdrs;
+		z-index: 1;
+	}
+	figure#fig-showcase {
+		position: absolute;
+		@include bgimg('../img/showcase-bg.jpg',
+		no-repeat, center, bottom, cover);
+		@include wh(normal, 95%, 600px);
+		z-index: 2;
+		top: 100px;
+		left: 5%;
+		border-radius: $bdrs;
+	}
+}

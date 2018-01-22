@@ -6,7 +6,52 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title><%= htmlWebpackPlugin.options.title %></title>
 </head>
-<body>
+
+	<!-- Header section jumbotron -->
+	<header id="header-home" class="jumbotron jumbotron-fluid">
+	</header>
+
+	<!-- Nav section -->
+	<nav id="section-nav" class="navbar navbar-expand-sm">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<i class="fa fa-bars navbar-toggler-icon" aria-hidden="true"></i>
+		</button>
+		<div id="navbarNav" class="collapse navbar-collapse">
+			<div class="container">
+				<ul class="navbar-nav w-100 d-flex justify-content-around">
+					<li class="nav-item">
+						<a class="nav-link" href="#main-about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Fresh</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Wine</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Order</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Showcase section -->
+	<section id="showcase" class="container d-">
+		<div id="color-box"></div>
+		<figure id="fig-showcase" class="m-0 p-0"></figure>
+	</section>
+
+	<!-- Main section about -->
+	<main id="main-about" class="container">
+		<div class="row">
+			<figure id="main-fig-1" class="col-lg-8 col-md-8"></figure>
+			<div id="main-content" class="col-lg-4 col-md-4">
+				<h1>Since 1822</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate provident libero officiis rerum nam tempore repudiandae animi, voluptas, magnam ducimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sit mollitia, voluptatum odio! Atque eius qui magnam, ducimus voluptates voluptas officia eaque distinctio voluptatem enim.</p>
+			</div>
+		</div>
+	</main>
 
 </body>
 </html>
