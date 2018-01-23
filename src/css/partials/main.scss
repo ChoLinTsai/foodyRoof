@@ -2,7 +2,8 @@ main#main-about {
 	@include wh(normal, 100%, 500px);
 	margin-top: 2rem;
 	padding: 0;
-	background: #D9FAFF;
+	background: rgba(#d9faff, 0.5);
+	border-radius: $bdrs;
 	div.row {
 		@include wh(normal, 100%, 500px);
 		padding: 1.5rem;
@@ -12,6 +13,7 @@ main#main-about {
 			padding: 0;
 			@include bgimg('../img/main-bg.jpg',
 			no-repeat, center, center, cover);
+			border-radius: $bdrs;
 		}
 		div#main-content {
 			@include flex;
@@ -25,6 +27,8 @@ main#main-about {
 			}
 			p {
 				font-size: 1rem;
+				font-family: 'roboto-mediem';
+				line-height: 1.5;
 			}
 		}
 	}

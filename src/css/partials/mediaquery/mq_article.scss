@@ -1,0 +1,118 @@
+/* laptop xl or desktop */
+@media screen and (max-width: 1440px) {
+
+}
+
+/* laptop lg */
+@media screen and (max-width: 1200px) {
+	article#article-fresh {
+		div.container {
+			div.card {
+				@include wh(normal, 100%, 28rem);
+				border-radius: $bdrs;
+				div.article-fig-wrap{
+					@include wh(normal, 100%, 55%);
+					figure#article-fig-1 {
+					}
+					figure#article-fig-2 {
+					}
+					figure#article-fig-3 {
+					}
+				}
+				div.card-body {
+					@include wh(normal, 100%, 45%);
+				}
+			}
+		}
+	}
+}
+
+/* laptop lg */
+@media screen and (max-width: 992px) {
+	article#article-fresh {
+		padding-bottom: 0;
+		div.container {
+			div#card-wrap {
+				margin-bottom: 2rem;
+				padding: 0;
+				div.card {
+					@include wh(normal, 100%, 35rem);
+					border-radius: $bdrs;
+					div.article-fig-wrap{
+						@include wh(normal, 100%, 70%);
+						figure#article-fig-1 {
+						}
+						figure#article-fig-2 {
+						}
+						figure#article-fig-3 {
+						}
+					}
+					div.card-body {
+						@include wh(normal, 100%, 30%);
+					}
+				}
+			}
+		}
+	}
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+	article#article-fresh {
+		padding: 1.5rem;
+		div.container {
+			max-width: 100vw;
+				div#card-wrap {
+					margin: 1rem 0;
+					padding: 0;
+					div.card {
+						@include wh(normal, 100%, 33rem);
+						border-radius: $bdrs;
+						div.article-fig-wrap{
+							@include wh(normal, 100%, 65%);
+							figure#article-fig-1 {
+							}
+							figure#article-fig-2 {
+							}
+							figure#article-fig-3 {
+							}
+						}
+						div.card-body {
+							@include wh(normal, 100%, 35%);
+						}
+					}
+				}
+		}
+	}
+}
+
+/* mobile */
+@media screen and (max-width: 576px) {
+	article#article-fresh {
+		margin: 0;
+		padding: 1.5rem;
+		div.container {
+			max-width: 100vw;
+			div#card-wrap {
+				margin-bottom: 2rem;
+				padding: 0;
+				div.card {
+					@include wh(normal, 100%, 33rem);
+					border-radius: $bdrs;
+					div.article-fig-wrap{
+						@include wh(normal, 100%, 60%);
+						figure#article-fig-1 {
+						}
+						figure#article-fig-2 {
+						}
+						figure#article-fig-3 {
+						}
+					}
+					div.card-body {
+						@include wh(normal, 100%, 40%);
+					}
+				}
+			}
+		}
+	}
+}

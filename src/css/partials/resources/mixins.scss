@@ -57,7 +57,7 @@
 }
 
 /* for background properties */
-@mixin bgimg($url, $repeat, $positionX, $positionY, $size, $attachment:scroll) {
+@mixin bgimg($url, $repeat:no-repeat, $positionX:center, $positionY:center, $size:cover, $attachment:scroll) {
 	background-image: url($url);
 	background-repeat: $repeat;
 	background-position: $positionX $positionY;
