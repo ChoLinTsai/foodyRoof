@@ -45,29 +45,32 @@
 
 /* mobile */
 @media screen and (max-width: 768px) {
-	section#showcase {
-		margin-top: 2rem;
-		@include wh(normal, 100%, 400px);
+	section#showcase.container {
+		margin: 0;
+		@include wh(normal, 100vw, 400px);
 		div#color-box {
-			@include wh(normal, 50%, 100%);
+			@include wh(normal, 0, 0);
 		}
 		figure#fig-showcase {
-			@include wh(normal, 95%, 300px);
-			top: 50px;
+			@include wh(normal, 100vw, 400px);
+			position: relative;
+			top: 0;
+			left: 0;
+			border-radius: 0;
 		}
 	}
 }
 
 /* mobile */
 @media screen and (max-width: 576px) {
-	section#showcase {
+	section#showcase.container {
 		margin-top: 0;
-		@include wh(normal, 100%, 400px);
+		@include wh(normal, 100vw, 300px);
 		div#color-box {
 			@include wh(normal, 0, 0);
 		}
 		figure#fig-showcase {
-			@include wh(normal, 100%, 300px);
+			@include wh(normal, 100vw, 300px);
 			top: 0;
 			left: 0;
 			border-radius: 0;

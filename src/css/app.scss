@@ -19,6 +19,15 @@
 
 /* Main section */
 @import "./partials/main.scss";
+@import "./partials/mediaquery/mq_main.scss";
+
+/* Article section */
+@import "./partials/article.scss";
+@import "./partials/mediaquery/mq_article.scss";
+
+
+
+
 
 
 
