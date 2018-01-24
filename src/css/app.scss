@@ -10,7 +10,7 @@
 @import "./partials/mediaquery/mq_header.scss";
 
 /* Shoecase section */
-@import "./partials/Showcase.scss";
+@import "./partials/showcase.scss";
 @import "./partials/mediaquery/mq_showcase.scss";
 
 /* Nav section */
@@ -25,6 +25,9 @@
 @import "./partials/article.scss";
 @import "./partials/mediaquery/mq_article.scss";
 
+/* Wine section */
+@import "./partials/wine.scss";
+@import "./partials/mediaquery/mq_wine.scss";
 
 
 
@@ -46,7 +49,7 @@
 
 }
 
-/* mobile */
+/* tablet */
 @media screen and (max-width: 768px) {
 
 }
