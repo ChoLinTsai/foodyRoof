@@ -10,7 +10,7 @@
 @import "./partials/mediaquery/mq_header.scss";
 
 /* Shoecase section */
-@import "./partials/Showcase.scss";
+@import "./partials/showcase.scss";
 @import "./partials/mediaquery/mq_showcase.scss";
 
 /* Nav section */
@@ -25,6 +25,13 @@
 @import "./partials/article.scss";
 @import "./partials/mediaquery/mq_article.scss";
 
+/* Wine section */
+@import "./partials/wine.scss";
+@import "./partials/mediaquery/mq_wine.scss";
+
+/* Footer section */
+@import "./partials/footer.scss";
+@import "./partials/mediaquery/mq_footer.scss";
 
 
 
@@ -46,12 +53,22 @@
 
 }
 
-/* mobile */
+/* tablet */
 @media screen and (max-width: 768px) {
 
 }
 
-/* mobile */
+/* mobile lg */
 @media screen and (max-width: 576px) {
+
+}
+
+/* mobile md */
+@media screen and (max-width: 375px) {
+
+}
+
+/* mobile sm */
+@media screen and (max-width: 320px) {
 
 }
