@@ -154,14 +154,14 @@
 			div.row {
 				padding: 0 1rem;
 				div.card {
-					@include wh(normal, 100%, 550px);
+					@include wh(normal, 100%, 450px);
 					div#wine-fig-wrap {
-						@include wh(normal, 100%, 55%);
+						@include wh(normal, 100%, 50%);
 						figure#sec-wine-fig {
 						}
 					}
 					div.card-body {
-						@include wh(normal, 100%, 45%);
+						@include wh(normal, 100%, 50%);
 						padding: 1rem;
 						h5 {
 							font-size: 1rem;

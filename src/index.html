@@ -28,7 +28,7 @@
 						<a class="nav-link" href="#sec-wine">Wine</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Order</a>
+						<a class="nav-link" href="#order-btn">Order</a>
 					</li>
 				</ul>
 			</div>
@@ -100,7 +100,7 @@
 		</div>
 	</article>
 
-
+	<!-- Wine section -->
 	<section id="sec-wine">
 		<div class="container p-0">
 			<div class="row m-0 py-4">
@@ -116,6 +116,95 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- Footer section -->
+	<footer id="sec-footer">
+		<div class="container">
+			<div class="row">
+				<figure id="footer-fig" class="col-lg-6"></figure>
+				<div id="footer-content" class="col-lg-6">
+					<button type="button" id="order-btn" data-toggle="modal" data-target="#orderModal">Order Now</button>
+					<ul id="social-icons">
+						<li>
+							<a href="">
+								<i class="fa fa-facebook-square" aria-hidden="true"></i>
+							</a>
+						</li>
+
+						<li>
+							<a href="">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</a>
+						</li>
+
+						<li>
+							<a href="">
+								<i class="fa fa-twitter-square" aria-hidden="true"></i>
+							</a>
+						</li>
+
+						<li>
+							<a href="">
+								<i class="fa fa-snapchat-square" aria-hidden="true"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Order modal -->
+	<div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Oerder List (No fixed Menu)</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+					<form>
+					  <div class="form-group">
+					    <label for="inputPhoneNum">Phone Number</label>
+					    <input type="text" class="form-control" id="inputPhoneNum" placeholder="0912-123-123">
+					  </div>
+					  <div class="form-group">
+						    <label for="selectppl">How many people?</label>
+						    <select class="form-control" id="selectppl">
+						      <option>A : 2 ~ 4</option>
+						      <option>B : 5 ~ 8</option>
+						      <option>C : 9 ~ 12</option>
+						      <option>D : 13 ~ 16</option>
+									<option>E : 17 ~ 20</option>
+									<option>F : Over 20</option>
+						    </select>
+						</div>
+						<div class="form-group">
+						    <label for="selectMenu">Select your menu(per person)</label>
+						    <select multiple class="form-control" id="selectMenu">
+						      <option>Menu A : $59</option>
+						      <option>Menu B : $79</option>
+						      <option>Menu C : $99</option>
+						      <option>Menu D : $129</option>
+						      <option>Menu E : $159</option>
+									<option>Menu F : $209</option>
+						    </select>
+						</div>
+						<div class="form-group">
+						    <label for="requirementTextArea">Additional Requirements</label>
+						    <textarea class="form-control" id="requirementTextArea" rows="3"></textarea>
+						</div>
+					</form>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Send Order</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 
 </body>
 </html>
