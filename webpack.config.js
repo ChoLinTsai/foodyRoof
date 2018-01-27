@@ -163,7 +163,7 @@ module.exports = {
 		}),
 		new ExtractTextPlugin({
 			filename: './css/[name].css',
-			disable: !isProd,
+			// disable: !isProd,
 			allChunks: true
 		}),
 		// new PurifyCSSPlugin({
