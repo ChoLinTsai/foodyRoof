@@ -39,10 +39,8 @@ function $rmClsls(element, ...rmClass) {
 
 // scroll event function to fix navbar
 function checkScroll() {
-  /*
-	 get scrollY value, element navbar, navbar offsettop
-	 header jumbotron height, navbar and holder height
-	*/
+  // get scrollY value, element navbar, navbar offsettop
+  // header jumbotron height, navbar and holder height
   let wScrollY = window.scrollY;
   let getNav = $select('#section-nav');
   let navOffsetTop = getNav.offsetTop;
