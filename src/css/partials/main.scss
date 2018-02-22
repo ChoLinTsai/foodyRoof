@@ -4,27 +4,31 @@ main#main-about {
 	padding: 0;
 	background: rgba(#d9faff, 0.5);
 	border-radius: $bdrs;
+
 	div.row {
 		@include wh(normal, 100%, 500px);
 		padding: 1.5rem;
 		margin: 0;
+
 		figure#main-fig-1 {
 			margin: 0;
 			padding: 0;
-			@include bgimg('../img/main-bg.jpg',
-			no-repeat, center, center, cover);
+			@include bgimg('../img/main-bg.jpg', no-repeat, center, center, cover);
 			border-radius: $bdrs;
 		}
+
 		div#main-content {
 			@include flex;
 			flex-direction: column;
 			padding: 0 0 0 1.5rem;
 			color: #404969;
+
 			h1 {
 				margin-bottom: 3rem;
 				font-family: 'roboto-black';
 				font-size: 3rem;
 			}
+
 			p {
 				font-size: 1rem;
 				font-family: 'roboto-mediem';

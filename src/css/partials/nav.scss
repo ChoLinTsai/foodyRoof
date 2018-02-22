@@ -1,17 +1,20 @@
 nav#section-nav {
 	width: 100vw;
 	background: #404969;
+
 	button.navbar-toggler {
 		padding: 0;
 		@include wh(normal, 50px, 50px);
 		font-size: 2rem;
 		outline-style: none;
+
 		i.fa {
 			@include flex;
 			font-size: 2rem;
 			color: #fff;
 		}
 	}
+
 	div#navbarNav {
 		ul.navbar-nav {
 			li.nav-item {
@@ -23,6 +26,7 @@ nav#section-nav {
 					font-family: 'roboto-black';
 					font-size: 1.5rem;
 					letter-spacing: 10px;
+
 					&:hover {
 						color: #FF895D;
 					}

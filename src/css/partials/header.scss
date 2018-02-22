@@ -1,7 +1,6 @@
 header#header-home {
 	@include wh(normal, 100%, 650px);
-	@include bgimg('../img/header-bg.jpg',
-	no-repeat, center, center, cover);
+	@include bgimg('../img/header-bg.jpg', no-repeat, center, center, cover);
 	margin: 0;
 	padding: 0;
 }

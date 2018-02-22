@@ -1,8 +1,5 @@
 /* laptop xl or desktop */
-@media screen and (max-width: 1440px) {
-
-}
-
+@media screen and (max-width: 1440px) {}
 /* laptop lg */
 @media screen and (max-width: 1200px) {
 	section#sec-wine {
@@ -10,9 +7,9 @@
 			div.row {
 				div.card {
 					div#wine-fig-wrap {
-						figure#sec-wine-fig {
-						}
+						figure#sec-wine-fig {}
 					}
+
 					div.card-body {
 						h5 {
 							font-size: 3.5rem;
@@ -28,7 +25,6 @@
 		}
 	}
 }
-
 /* laptop lg */
 @media screen and (max-width: 992px) {
 	section#sec-wine {
@@ -36,15 +32,15 @@
 			div.row {
 				div.card {
 					@include wh(normal, 100%, 600px);
+
 					div#wine-fig-wrap {
-						figure#sec-wine-fig {
-						}
+						figure#sec-wine-fig {}
 					}
+
 					div.card-body {
 						h5 {
 							font-size: 2.5rem;
-							margin: 0;
-							margin-bottom: 1rem;
+							margin: 0 0 1rem;
 							color: #333;
 							font-family: 'roboto-black-italic';
 							text-transform: uppercase;
@@ -55,19 +51,20 @@
 		}
 	}
 }
-
 /* mobile */
 @media screen and (max-width: 768px) {
 	section#sec-wine {
 		div.container {
 			max-width: 100vw;
+
 			div.row {
 				padding: 0 1rem;
+
 				div.card {
 					div#wine-fig-wrap {
-						figure#sec-wine-fig {
-						}
+						figure#sec-wine-fig {}
 					}
+
 					div.card-body {
 						h5 {
 							font-size: 1.8rem;
@@ -83,23 +80,27 @@
 		}
 	}
 }
-
 /* mobile */
 @media screen and (max-width: 576px) {
 	section#sec-wine {
 		div.container {
 			max-width: 100vw;
+
 			div.row {
 				padding: 0 1rem;
+
 				div.card {
 					@include wh(normal, 100%, 550px);
+
 					div#wine-fig-wrap {
 						@include wh(normal, 100%, 60%);
-						figure#sec-wine-fig {
-						}
+
+						figure#sec-wine-fig {}
 					}
+
 					div.card-body {
 						@include wh(normal, 100%, 40%);
+
 						h5 {
 							font-size: 1.2rem;
 							margin-top: 0;
@@ -114,23 +115,27 @@
 		}
 	}
 }
-
 /* mobile md */
 @media screen and (max-width: 375px) {
 	section#sec-wine {
 		div.container {
 			max-width: 100vw;
+
 			div.row {
 				padding: 0 1rem;
+
 				div.card {
 					@include wh(normal, 100%, 550px);
+
 					div#wine-fig-wrap {
 						@include wh(normal, 100%, 55%);
-						figure#sec-wine-fig {
-						}
+
+						figure#sec-wine-fig {}
 					}
+
 					div.card-body {
 						@include wh(normal, 100%, 45%);
+
 						h5 {
 							font-size: 1rem;
 							margin-top: 0;
@@ -145,24 +150,28 @@
 		}
 	}
 }
-
 /* mobile sm */
 @media screen and (max-width: 320px) {
 	section#sec-wine {
 		div.container {
 			max-width: 100vw;
+
 			div.row {
 				padding: 0 1rem;
+
 				div.card {
 					@include wh(normal, 100%, 450px);
+
 					div#wine-fig-wrap {
 						@include wh(normal, 100%, 50%);
-						figure#sec-wine-fig {
-						}
+
+						figure#sec-wine-fig {}
 					}
+
 					div.card-body {
 						@include wh(normal, 100%, 50%);
 						padding: 1rem;
+
 						h5 {
 							font-size: 1rem;
 							margin-top: 0;
@@ -171,6 +180,7 @@
 							font-family: 'roboto-black-italic';
 							text-transform: uppercase;
 						}
+
 						p {
 							font-size: 1rem;
 						}

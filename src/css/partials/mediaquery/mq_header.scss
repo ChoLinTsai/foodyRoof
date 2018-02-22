@@ -4,21 +4,18 @@
 		@include wh(normal, 100%, 450px);
 	}
 }
-
 /* laptop lg */
 @media screen and (max-width: 992px) {
 	header#header-home {
 		@include wh(normal, 100%, 400px);
 	}
 }
-
 /* mobile */
 @media screen and (max-width: 768px) {
 	header#header-home {
 		@include wh(normal, 100%, 300px);
 	}
 }
-
 /* mobile */
 @media screen and (max-width: 576px) {
 	header#header-home {

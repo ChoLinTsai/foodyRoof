@@ -2,55 +2,59 @@
 @media screen and (max-width: 1440px) {
 	section#showcase {
 		@include wh(normal, 100%, 700px);
+
 		div#color-box {
 			@include wh(normal, 45%, 100%);
 		}
+
 		figure#fig-showcase {
 			@include wh(normal, 95%, 600px);
 			top: 50px;
 		}
 	}
 }
-
 /* laptop lg */
 @media screen and (max-width: 1200px) {
 	section#showcase {
 		margin-top: 4rem;
 		@include wh(normal, 100%, 600px);
+
 		div#color-box {
 			@include wh(normal, 45%, 100%);
 		}
+
 		figure#fig-showcase {
 			@include wh(normal, 95%, 500px);
 			top: 50px;
 		}
 	}
 }
-
-
 /* laptop lg */
 @media screen and (max-width: 992px) {
 	section#showcase {
 		margin-top: 3rem;
 		@include wh(normal, 100%, 500px);
+
 		div#color-box {
 			@include wh(normal, 45%, 100%);
 		}
+
 		figure#fig-showcase {
 			@include wh(normal, 95%, 400px);
 			top: 50px;
 		}
 	}
 }
-
 /* mobile */
 @media screen and (max-width: 768px) {
 	section#showcase.container {
 		margin: 0;
 		@include wh(normal, 100vw, 400px);
+
 		div#color-box {
 			@include wh(normal, 0, 0);
 		}
+
 		figure#fig-showcase {
 			@include wh(normal, 100vw, 400px);
 			position: relative;
@@ -60,15 +64,16 @@
 		}
 	}
 }
-
 /* mobile */
 @media screen and (max-width: 576px) {
 	section#showcase.container {
 		margin-top: 0;
 		@include wh(normal, 100vw, 300px);
+
 		div#color-box {
 			@include wh(normal, 0, 0);
 		}
+
 		figure#fig-showcase {
 			@include wh(normal, 100vw, 300px);
 			top: 0;
