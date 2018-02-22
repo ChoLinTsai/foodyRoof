@@ -9,7 +9,7 @@ function debounce(func, wait, immediate) {
       args = arguments;
     let later = function() {
       timeout = null;
-      if (!immediate)
+      if (!immediate) 
         func.apply(context, args);
       };
     let callNow = immediate && !timeout;

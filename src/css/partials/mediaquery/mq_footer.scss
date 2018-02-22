@@ -1,30 +1,25 @@
 /* laptop xl or desktop */
-@media screen and (max-width: 1440px) {
-
-}
-
+@media screen and (max-width: 1440px) {}
 /* laptop lg */
-@media screen and (max-width: 1200px) {
-
-}
-
+@media screen and (max-width: 1200px) {}
 /* laptop lg */
 @media screen and (max-width: 992px) {
 	footer#sec-footer {
 		div.container {
 			max-width: 100vw;
+
 			div.row {
 				figure#footer-fig {
 					@include wh(normal, 100%, 400px);
 				}
+
 				div#footer-content {
-					button#order-btn {
-					}
+					button#order-btn {}
+
 					ul#social-icons {
 						li {
 							a {
-								i {
-								}
+								i {}
 							}
 						}
 					}
@@ -33,24 +28,24 @@
 		}
 	}
 }
-
 /* tablet */
 @media screen and (max-width: 768px) {
 	footer#sec-footer {
 		div.container {
 			max-width: 100vw;
+
 			div.row {
 				figure#footer-fig {
 					@include wh(normal, 100%, 400px);
 				}
+
 				div#footer-content {
-					button#order-btn {
-					}
+					button#order-btn {}
+
 					ul#social-icons {
 						li {
 							a {
-								i {
-								}
+								i {}
 							}
 						}
 					}
@@ -59,23 +54,27 @@
 		}
 	}
 }
-
 /* mobile lg */
 @media screen and (max-width: 576px) {
 	footer#sec-footer {
 		div.container {
 			max-width: 100vw;
+
 			div.row {
 				@include wh(normal, 100%, 400px);
+
 				figure#footer-fig {
 					@include wh(normal, 100%, 60%);
 				}
+
 				div#footer-content {
 					@include wh(normal, 100%, 40%);
+
 					button#order-btn {
 						margin: 1rem 0;
 						@include wh(normal, 20rem, 3rem);
 					}
+
 					ul#social-icons {
 						li {
 							a {
@@ -90,27 +89,32 @@
 		}
 	}
 }
-
 /* mobile md */
 @media screen and (max-width: 375px) {
 	footer#sec-footer {
 		div.container {
 			max-width: 100vw;
+
 			div.row {
 				@include wh(normal, 100%, 400px);
+
 				figure#footer-fig {
 					@include wh(normal, 100%, 55%);
 				}
+
 				div#footer-content {
 					@include wh(normal, 100%, 45%);
+
 					button#order-btn {
 						@include wh(normal, 20rem, 2.5rem);
 						font-size: 1.25rem;
 						margin-top: 0;
 					}
+
 					ul#social-icons {
 						@include wh(normal, 20rem, 3.5rem);
 						padding-bottom: 0.5rem;
+
 						li {
 							a {
 								i {
@@ -124,25 +128,28 @@
 		}
 	}
 }
-
 /* mobile sm */
 @media screen and (max-width: 320px) {
 	footer#sec-footer {
 		div.container {
 			max-width: 100vw;
+
 			div.row {
 				figure#footer-fig {
 					@include wh(normal, 100%, 200px);
 				}
+
 				div#footer-content {
 					button#order-btn {
 						@include wh(normal, 17rem, 2.5rem);
 						font-size: 1.25rem;
 						margin-bottom: 2rem;
 					}
+
 					ul#social-icons {
 						@include wh(normal, 20rem, 3.5rem);
 						padding-bottom: 0.5rem;
+
 						li {
 							a {
 								i {

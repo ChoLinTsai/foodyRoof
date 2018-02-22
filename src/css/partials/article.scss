@@ -3,39 +3,48 @@ article#article-fresh {
 	background: rgba(#b6f5de, 0.5);
 	margin-top: 2rem;
 	padding: 2rem;
+
 	div.container {
 		div.card {
 			@include wh(normal, 100%, 30rem);
 			border-radius: $bdrs;
-			div.article-fig-wrap{
+
+			div.article-fig-wrap {
 				@include wh(normal, 100%, 60%);
 				overflow: hidden;
 				border-radius: 15px 15px 0 0;
+
 				figure#article-fig-1 {
 					@include bgimg('../img/article-fig-1.jpg');
 					@include wh(normal, 100%, 100%);
-					transition: all .45s;
+					transition: all 0.45s;
+
 					&:hover {
 						transform: scale(1.15);
 					}
 				}
+
 				figure#article-fig-2 {
 					@include bgimg('../img/article-fig-2.jpg');
 					@include wh(normal, 100%, 100%);
-					transition: all .45s;
+					transition: all 0.45s;
+
 					&:hover {
 						transform: scale(1.15);
 					}
 				}
+
 				figure#article-fig-3 {
 					@include bgimg('../img/article-fig-3.jpg');
 					@include wh(normal, 100%, 100%);
-					transition: all .45s;
+					transition: all 0.45s;
+
 					&:hover {
 						transform: scale(1.15);
 					}
 				}
 			}
+
 			div.card-body {
 				@include wh(normal, 100%, 30%);
 				overflow: hidden;

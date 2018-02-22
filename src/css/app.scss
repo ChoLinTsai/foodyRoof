@@ -1,34 +1,26 @@
 /* Global */
 @import '../bootstrap/customizations.scss';
 @import "./partials/resources/fonts.scss";
-
 /* Root */
 @import "./partials/root.scss";
-
 /* Header section */
 @import "./partials/header.scss";
 @import "./partials/mediaquery/mq_header.scss";
-
 /* Shoecase section */
 @import "./partials/showcase.scss";
 @import "./partials/mediaquery/mq_showcase.scss";
-
 /* Nav section */
 @import "./partials/nav.scss";
 @import "./partials/mediaquery/mq_nav.scss";
-
 /* Main section */
 @import "./partials/main.scss";
 @import "./partials/mediaquery/mq_main.scss";
-
 /* Article section */
 @import "./partials/article.scss";
 @import "./partials/mediaquery/mq_article.scss";
-
 /* Wine section */
 @import "./partials/wine.scss";
 @import "./partials/mediaquery/mq_wine.scss";
-
 /* Footer section */
 @import "./partials/footer.scss";
 @import "./partials/mediaquery/mq_footer.scss";
